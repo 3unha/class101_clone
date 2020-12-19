@@ -1,7 +1,7 @@
 # class101 클론코딩 모의외주 서버
 
 class 101 API 명세서:
-https://docs.google.com/spreadsheets/d/1khfrj9KS-FZRAPMd2udKy4agogyRTJ6Iyg33Di-ht7w/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1DnYwV2FGk5wdbbvl7E385ke8F35fQ3gjNJtWe_Z1Un8/edit?usp=sharing
 
 ## 구현한 api
 - GET /store
