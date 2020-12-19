@@ -6,7 +6,7 @@ require '/var/www/html/test/server_php/Bootpay/Rest/BootpayApi.php';
 require 'function.php';
 
 
-const JWT_SECRET_KEY = "2d4nj21b9r20werioclrn023iowernlnv480o2n";
+const JWT_SECRET_KEY = ""; 
 
 $res = (Object)Array();
 header('Content-Type: json');
