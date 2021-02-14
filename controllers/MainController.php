@@ -9,11 +9,7 @@ $req = json_decode(file_get_contents("php://input"));
 try {
     addAccessLogs($accessLogs, $req);
     switch ($handler) {
-        /*
-         * API No. 0
-         * API Name : JWT 유효성 검사 테스트 API
-         * 마지막 수정 날짜 : 19.04.25
-         */
+       
         case "validateJwt":
             // jwt 유효성 검사
             //$jwt = $_SERVER["HTTP_X_ACCESS_TOKEN"];
@@ -43,11 +39,7 @@ try {
 
             echo json_encode($res, JSON_NUMERIC_CHECK);
             break;
-        /*
-         * API No. 1
-         * API Name : JWT 생성 테스트 API (로그인)
-         * 마지막 수정 날짜 : 19.04.25
-         */
+       
         case "createJwt":
             // jwt 유효성 검사
             http_response_code(200);
