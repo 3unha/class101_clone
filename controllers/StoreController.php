@@ -24,11 +24,7 @@ try {
             getLogs("./logs/errors.log");
             break;
 
-        /*
-         * API No. 5
-         * API Name : 테스트 API
-         * 마지막 수정 날짜 : 19.04.29
-         */
+       
         case "reviewByProd":
             http_response_code(200);
             $jwt = $_SERVER["HTTP_X_ACCESS_TOKEN"];
